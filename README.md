@@ -46,3 +46,13 @@ git push -u origin main
 git remote add origin https://github.com/phpaulo/teste.git  
 git branch -M main  
 git push -u origin main  
+
+--
+
+devemos remover as origens adicionadas anteriormente a qualquer repositório e adicionar uma nova origem que tenha o token nela. Podemos fazer isso seguindo estes 3 passos simples  
+
+A) No terminal vá para o diretório do seu repositório  
+B) remover os controles remotos  
+git remove origem remota  
+C) adicione o novo controle remoto seguindo esta estrutura:  
+git remote add origin https://github.com/phpaulo/teste.git  
