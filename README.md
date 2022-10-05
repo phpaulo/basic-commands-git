@@ -53,6 +53,6 @@ devemos remover as origens adicionadas anteriormente a qualquer repositório e a
 
 A) No terminal vá para o diretório do seu repositório  
 B) remover os controles remotos  
-git remove origem remota  
+git remote remove origin   
 C) adicione o novo controle remoto seguindo esta estrutura:  
 git remote add origin https://github.com/phpaulo/teste.git  
