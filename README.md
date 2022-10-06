@@ -56,3 +56,16 @@ B) remover os controles remotos
 git remote remove origin   
 C) adicione o novo controle remoto seguindo esta estrutura:  
 git remote add origin https://github.com/phpaulo/teste.git  
+
+--
+
+Listando Branches  
+Esse comando lista todas as branches presentes no repositório do seu computador.    
+$ git branch  
+
+Caso você queira que ele liste também as branches que estão no repositório remoto, adicione -a:    
+$ git branch -a  
+
+Criando Branches Remotas  
+Ao enviar o seu código para uma branch remota que ainda não existe, basta executar o push com a opção -u junto com o nome do repositório remoto e o nome da nova branch.  
+$ git branch -a  
