@@ -24,7 +24,7 @@ Este comando permite ver quais arquivos estão sendo “rastreados” pelo git e
 
 **Git checkout**
 
-É o comando utilizado para trocar de branch passando o nome da branch destino no final do comando. Caso a flag -b seja colocada após o “checkout” é possível criar a branch em questão e já trocar para esta imediatamente.
+É o comando utilizado para trocar de branch passando o nome da branch destino no final do comando. Caso a flag -b seja colocada após o “checkout” é possível criar a branch em questão e já trocar para esta imediatamente: git checkout -b <branch_name>.
 
 E aí, o que achou desta dose de git? Vale lembrar que esta é uma ferramenta muito versátil e tem muito mais funcionalidades do que poderíamos cobrir aqui, portanto não deixe de buscar mais informações para se especializar neste que é o sistema de versionamento mais utilizado do mundo!
 
@@ -72,3 +72,12 @@ $ git branch -a
 
 **Link abaixo contém informações sobre o merge**  
 https://git-scm.com/book/pt-br/v2/Branches-no-Git-O-b%C3%A1sico-de-Ramifica%C3%A7%C3%A3o-Branch-e-Mesclagem-Merge
+
+Para fazer o merge, voltar para a branch master  
+git checkout master  
+
+Executar o comando abaixo  
+git merge <branch_name> (por exemplo: new_features_test001)  
+
+Após isto já não é mais necessário a referida branch. Então para excluir usar o comando abaixo.
+git branch -d <branch_name> (por exemplo: new_features_test001)
