@@ -79,5 +79,5 @@ git checkout master
 Executar o comando abaixo  
 git merge <branch_name> (por exemplo: new_features_test001)  
 
-Após isto já não é mais necessário a referida branch. Então para excluir usar o comando abaixo.
+Após isto já não é mais necessário a referida branch. Então para excluir usar o comando abaixo.  
 git branch -d <branch_name> (por exemplo: new_features_test001)
