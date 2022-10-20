@@ -74,7 +74,7 @@ $ git branch -a
 https://git-scm.com/book/pt-br/v2/Branches-no-Git-O-b%C3%A1sico-de-Ramifica%C3%A7%C3%A3o-Branch-e-Mesclagem-Merge
 
 Para fazer o merge, voltar para a branch master  
-git checkout master  
+git checkout main  
 
 Executar o comando abaixo  
 git merge <branch_name> (por exemplo: new_features_test001)  
