@@ -68,7 +68,7 @@ $ git branch -a
 
 Criando Branches Remotas  
 Ao enviar o seu código para uma branch remota que ainda não existe, basta executar o push com a opção -u junto com o nome do repositório remoto e o nome da nova branch.  
-$ git branch -a  
+$ git branch -u  
 
 **Link abaixo contém informações sobre o merge**  
 https://git-scm.com/book/pt-br/v2/Branches-no-Git-O-b%C3%A1sico-de-Ramifica%C3%A7%C3%A3o-Branch-e-Mesclagem-Merge
