@@ -79,11 +79,14 @@ git checkout main
 Executar o comando abaixo  
 git merge <branch_name> (por exemplo: new_features_test001)  
 
-Após isto já não é mais necessário a referida branch. Então para excluir usar o comando abaixo.  
-git branch -d <branch_name> (por exemplo: new_features_test001)
-
 Acessar a conta do github, fazer um pull request das branchs e após isto executar o comando abaixo para deletar a branch  
-git push origin :<branch_name> (por exemplo: new_features_test001)  
+git push origin :<branch_name> (por exemplo: new_features_test001)
+
+Após isto já não é mais necessário a referida branch. Então para excluir usar o comando abaixo.  
+git push origin <branch_name>  (exclui branch remota)
+git branch -d <branch_name>    (exclui branch local) (por exemplo: new_features_test001)
+
+  
 
 TUTORIAL COM PRINCIPAIS COMANDOS:  
 https://www.treinaweb.com.br/blog/comandos-do-git-que-voce-precisa-conhecer-parte-1
