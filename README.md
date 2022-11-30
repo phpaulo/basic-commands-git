@@ -55,7 +55,8 @@ A) No terminal vá para o diretório do seu repositório
 B) remover os controles remotos  
 git remote remove origin   
 C) adicione o novo controle remoto seguindo esta estrutura:  
-git remote add origin https://github.com/phpaulo/teste.git  
+git remote add origin https://TOKEN@github.com/USERNAME/REPO.git
+  
 
 --
 
