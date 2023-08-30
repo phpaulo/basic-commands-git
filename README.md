@@ -94,4 +94,17 @@ https://www.treinaweb.com.br/blog/comandos-do-git-que-voce-precisa-conhecer-part
 https://www.treinaweb.com.br/blog/comandos-do-git-que-voce-precisa-conhecer-parte-2-repositorios-remotos  
 
 COMO CONFIGURAR SSH NO GITHUB:  
-https://dev.to/dxwebster/como-conectar-ao-github-com-chaves-ssh-1i41#:~:text=Abra%20o%20Github%20e%20v%C3%A1,%22SSH%20and%20GPG%20keys%22.&text=No%20campo%20%22T%C3%ADtulo%22%2C%20adicione,descritivo%20para%20a%20nova%20chave.
+https://dev.to/dxwebster/como-conectar-ao-github-com-chaves-ssh-1i41#:~:text=Abra%20o%20Github%20e%20v%C3%A1,%22SSH%20and%20GPG%20keys%22.&text=No%20campo%20%22T%C3%ADtulo%22%2C%20adicione,descritivo%20para%20a%20nova%20chave.  
+
+Configurando autenticação por SSH em um repositório git novo:  
+No terminal digite: eval "$(ssh-agent -s)"  
+Ex. Saída: pid 2128  
+
+Adicione a chave:  
+ssh-add ~/.ssh/id_ed25519  
+Enter passphrase for /c/Users/nome_usuario/.ssh/id_ed25519:  
+Ex. Saída: Identity added: /c/Users/nome_usuario/.ssh/id_ed25519 (email@email.com)  
+
+Teste a autenticação com o comando abaixo:  
+ssh -T git@github.com  
+Ex. Saída: Hi usuario_github! You've successfully authenticated, but GitHub does not provide shell access.
